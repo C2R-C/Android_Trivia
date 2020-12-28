@@ -9,6 +9,36 @@ fragment.
 
 En este punto, la app se encuentra funcional. En el próximo commit estaré agregando los desafíos de la unidad. 
 
+## Desafío Realizado
+---
+
+Agregué dos botones, uno de **Rules** y otro de **About** en la vista **fragment_title**, los cuales me llevan a las vistas correspondientes.
+En las vistas **fragment_about** y **fragment_rules agregué un botón a cada una que nos lleva a la vista **fragment_game** para iniciar el jugar.
+Así mismo, se configuró para que cuando se esté en el juego y se oprima la flecha de retroceso nos lleve directamente de la vista del juego a la vista **fragment_title**
+
+## Preguntas plateadas en el codelab con sus respuestas
+---
+
+1. ¿Cómo permite que su proyecto utilice componentes de navegación?
+    R/ Se agregan las dependencias para navigation-fragment-ktx y navigation-ui-ktx en el archivo build.gradle (module).
+
+2. ¿Dónde están definidas las posibles rutas a través de su aplicación?
+    R/ En un archivo (a menudo llamado `navigation.xml`)en la carpeta de `res>navegación`.
+
+3. ¿Cuáles de las siguientes afirmaciones sobre el NavHostFragment es verdadera?
+    R/ Agrega el NavHostFragment al diseño principal agregando un `<fragment>` cuyo nombre es `androidx.navigation.fragment.NavHostFragment`.
+
+4. ¿Dónde se configura el ID de un fragmento que se utilizará en la navegación?
+    R/ En el archivo de navegación del proyecto, ya sea estableciendo el atributo `ID` en el gráfico de navegación o en el archivo XML de navegación en la carpeta de `res>navegación`  .
+
+5. La aplicación Noticias tiene una `NewsFragment` que muestra un botón `Mostrar titulares`. El objetivo es que cuando el usuario haga clic en este botón, la aplicación navegue al archivo `HeadlinesFragment`.
+    ¿Qué más debe hacer para que cuando el usuario toque el botón `Mostrar titulares` , la aplicación navegue al `HeadlinesFragment`?
+    R/ En el `onclickListener` para la llamada del botón `muestre títulos` en el `navigate()` controlador de navegación, pasando por la acción que conecta el `NewsFragment` al `HeadlinesFragment`.
+
+
+
+
+
 Introduction
 ------------
 

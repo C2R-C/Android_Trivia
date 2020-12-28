@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trivia Android</string>
+    <string name="game_over">Fin del Juego</string>
+    <string name="try_again">Lo intentas de nuevo?</string>
+    <string name="position">Posicion</string>
+    <string name="select_an_avatar">Seleccione un Avatar</string>
+    <string name="android_trivia">Trivia Android</string>
+    <string name="about_text">Android Trivia le ayudará a recordar conceptos importantes que ha aprendido y aprenderá en el desarrollo de Android. \n \n¡Considere modificar las preguntas y los gráficos para hacer suyo este juego!</string>
+    <string name="rules_text">Seleccione la respuesta de las opciones dadas. Cada vez que obtiene una respuesta correcta, avanza a la siguiente pregunta. \n \nSi obtiene una respuesta incorrecta, ¡su juego termina! Puedes volver a la pantalla de título usando up o back desde la pantalla del juego, y esto también terminará tu juego.</string>
+    <string name="rules">Reglas</string>
+    <string name="about">Acerca de</string>
+    <string name="trivia_hint">Pista de trivia</string>
+    <string name="title_android_trivia_question">Trivia Android (%1$d/%2$d)</string>
+    <string name="title_about_trivia">Acerca de la Trivia</string>
+    <string name="title_trivia_rules">Reglas de la Trivia</string>
+    <string name="share_success_text">I mastered #UdacityAndroidTrivia with %1$d/%2$d correct questions!</string>
+    <string name="submit_button">Enviar</string>
+    <string name="congratulations">Felicitaciones!</string>
+    <string name="share">Compartir</string>
+    <string name="sharing_not_available">Compartir no está disponible</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">Jugar</string>
+</resources>
